@@ -27,6 +27,10 @@ The objective is to understand website traffic patterns, visitor behaviour, enga
 
 ![Swiggy Website Performance Dashboard](Swiggy_Website_Performance_Dashboard.png)
 
+## Interactive Tableau Dashboard
+
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/omkar.malgi/viz/SwiggyTrafficAnalysisDashboard_17889819421700/TrafficDashboard)**
+
 ## Dataset Overview
 
 The project uses a dataset containing website traffic and session information, including traffic source, visitor type, device, browser, operating system, geographic information, landing page, exit page, campaign, page views, sessions, bounce status, session duration and conversion status.
@@ -46,4 +50,3 @@ The original dataset is not included in this public repository.
 ## Project Disclaimer
 
 This is an independent portfolio project based on course-provided project data. It is for analytical and learning purposes and does not represent official Swiggy internal business data or performance.
-
