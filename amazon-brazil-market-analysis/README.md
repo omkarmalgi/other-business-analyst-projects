@@ -1,45 +1,21 @@
 
-# Amazon Brazil Market Analysis
+# Amazon Brazil Market Analysis – Strategic Report for Amazon India
 
 **Created by:** Omkar Malgi  
-**Project:** Business Analyst Portfolio Project  
+**Project:** NextLeap Business Analyst Fellowship – Milestone 4  
 **Tools:** PostgreSQL, Excel
 
 ## Project Overview
 
-This project analyses Brazilian e-commerce transaction data to understand customer purchasing behaviour, payment preferences, product pricing, revenue performance, seasonal sales patterns and customer segmentation.
+This project analyses Amazon Brazil e-commerce data to understand customer purchasing behaviour, payment preferences, product pricing, revenue performance, seasonal sales patterns and customer segmentation.
 
-The findings are interpreted from a business analysis perspective to identify strategic opportunities relevant to Amazon India's market context.
+The objective is to translate SQL analysis into actionable business insights and strategic recommendations relevant to Amazon India's market context.
 
-## Project Objectives
+## Dataset Information
 
-- Analyse payment preferences and transaction values.
-- Understand product pricing and category-level revenue.
-- Identify seasonal sales trends.
-- Analyse customer purchasing frequency.
-- Segment customers based on order history.
-- Identify high-value customers.
-- Evaluate product data quality.
-- Analyse monthly and cumulative sales growth.
+The original dataset was provided by NextLeap as part of the Business Analyst Fellowship project.
 
-## Dataset & Source
-
-The analysis uses the **Brazilian E-Commerce Public Dataset by Olist**, published on Kaggle.
-
-The dataset contains approximately 100,000 orders from Brazilian marketplaces between 2016 and 2018.
-
-**Original dataset:**  
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-
-**Dataset licence:** CC BY-NC-SA 4.0.
-
-Important: This is Olist Brazilian marketplace data, not Amazon's internal company data. Amazon India is the strategic business context used in the report.
-
-The original CSV files are not included in this repository. They can be obtained from the original dataset source above.
-
-## Tables Used
-
-The PostgreSQL schema contains six tables:
+The dataset consists of six interconnected tables:
 
 - Customer Data
 - Orders
@@ -48,11 +24,27 @@ The PostgreSQL schema contains six tables:
 - Products
 - Sellers
 
+The data was imported into PostgreSQL, structured into relational tables and analysed using SQL queries.
+
+The original source CSV files are not included in this public repository.
+
+## Analysis Areas
+
+- Payment preferences and transaction values
+- Product pricing and category performance
+- Seasonal and monthly sales trends
+- Customer purchasing frequency
+- Customer segmentation
+- High-value customer identification
+- Product data quality
+- Product sales growth
+- Monthly payment-method performance
+
 ## SQL Techniques Demonstrated
 
-- Aggregate functions: SUM, AVG, COUNT, MIN, MAX and STDDEV
-- INNER JOIN
+- Aggregate functions
 - GROUP BY and HAVING
+- INNER JOIN
 - CASE statements
 - Subqueries
 - Temporary tables
@@ -66,23 +58,23 @@ The PostgreSQL schema contains six tables:
 ## Key Business Findings
 
 | Business Area | Finding |
-|---|---|
-| Payment preferences | Credit cards account for 73.9% of payment transactions |
-| Seasonal sales | Spring generated approximately BRL 4.22 million |
-| Customer behaviour | 3,140 customers placed multiple orders |
-| Customer segmentation | 98,144 customers fall into the Occasional segment |
-| Product data quality | 614 records have missing or incomplete category information |
-| Category revenue | Beauty & Health generated approximately BRL 1.26 million |
+|---|---:|
+| Credit card payment share | 73.9% |
+| Spring seasonal sales | Approx. BRL 4.22M |
+| Customers with multiple orders | 3,140 |
+| Occasional customer segment | 98,144 |
+| Incomplete product category records | 614 |
+| Beauty & Health category revenue | Approx. BRL 1.26M |
 
 ## Business Recommendations
 
-1. Strengthen the credit-card checkout experience.
-2. Align promotional and inventory planning with seasonal demand.
+1. Strengthen the credit-card payment experience.
+2. Use seasonal demand patterns for inventory and promotional planning.
 3. Improve product category data quality.
-4. Develop customer retention and loyalty initiatives.
+4. Develop customer retention and loyalty programs.
 5. Identify high-value customers for targeted rewards.
 6. Focus on high-performing product categories.
-7. Monitor monthly payment-method sales trends.
+7. Monitor payment-method sales trends.
 
 ## Project Deliverables
 
@@ -90,9 +82,9 @@ The PostgreSQL schema contains six tables:
 
 [View Amazon Brazil Market Analysis Report](Amazon_Brazil_Market_Analysis_Report_By_Omkar_Malgi.pdf)
 
-**2. PostgreSQL SQL Script**
+**2. Original PostgreSQL SQL Script**
 
-[View SQL Analysis Script](Amazon_brazil.sql)
+[View Amazon Brazil SQL Script](Amazon_brazil.sql)
 
 ## Skills Demonstrated
 
@@ -108,4 +100,4 @@ The PostgreSQL schema contains six tables:
 
 ## Project Disclaimer
 
-This is an independent portfolio case study based on the publicly available Olist Brazilian E-Commerce dataset. The report uses Amazon India as a strategic case-study context. The findings are analytical observations from the Olist dataset and must not be interpreted as actual Amazon business performance.
+This project was completed as part of the NextLeap Business Analyst Fellowship using the dataset provided for the assignment. The report presents Amazon Brazil analysis and discusses its strategic relevance to Amazon India. The findings are project analysis results and are not official Amazon company data or business performance.
